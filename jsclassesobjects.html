@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DATA'S</title>
+	<style type="text/css">
+		table,tr,td
+		{
+			border: 12px solid #06f;
+		}
+	</style>
+</head>
+<body>
+
+	<center><h1><u><i>Information</i></u></h1></center>
+
+	<center><table>
+		<tr>
+			<th>SL.NO</th>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Contact</th>
+			<th>Email</th>
+		</tr>
+		<tr>
+			<td>1.</td>
+			<td id="demo"></td>
+			<td id="demo1"></td>
+			<td id="demo2"></td>
+			<td id="demo3"></td>
+		</tr>
+
+		<tr>
+			<td>2.</td>
+			<td id="demo4"></td>
+			<td id="demo5"></td>
+			<td id="demo6"></td>
+			<td id="demo7"></td>
+		</tr>
+
+
+		<tr>
+			<td>3.</td>
+			<td id="demo8"></td>
+			<td id="demo9"></td>
+			<td id="demo10"></td>
+			<td id="demo11"></td>
+		</tr>
+
+		<tr>
+			<td>4.</td>
+			<td id="demo12"></td>
+			<td id="demo13"></td>
+			<td id="demo14"></td>
+			<td id="demo15"></td>
+		</tr>
+
+		<tr>
+			<td>5.</td>
+			<td id="demo16"></td>
+			<td id="demo17"></td>
+			<td id="demo18"></td>
+			<td id="demo19"></td>
+		</tr>
+	</table></center>
+	
+
+	<script>
+	class student {
+    constructor(name,age,contact,email){
+    this.name = name;
+    this.age = age;
+    this.contact=contact;
+    this.email=email;
+
+       }
+
+	}
+   const mystudent = new student("shahid Qadri", 22,7899059040, "shahidqadri@gmail.com");
+	document.getElementById('demo').innerHTML = mystudent.name;
+	document.getElementById('demo1').innerHTML = mystudent.age ;
+	document.getElementById('demo2').innerHTML = mystudent.contact ;
+	document.getElementById('demo3').innerHTML = mystudent.email;
+
+
+	const instudent = new student("shahid ukkali", 23,7899059000, "shahidukkali@gmail.com");
+	document.getElementById('demo4').innerHTML = instudent.name;
+	document.getElementById('demo5').innerHTML = instudent.age ;
+	document.getElementById('demo6').innerHTML = instudent.contact ;
+	document.getElementById('demo7').innerHTML = instudent.email;
+
+
+const ourstudent = new student("saqib Qadri", 12,7899099040, "saqibqadri@gmail.com");
+	document.getElementById('demo8').innerHTML = ourstudent.name;
+	document.getElementById('demo9').innerHTML = ourstudent.age ;
+	document.getElementById('demo10').innerHTML = ourstudent.contact ;
+	document.getElementById('demo11').innerHTML = ourstudent.email;
+
+
+
+	const himstudent = new student("jameel Qadri", 35,9036242566, "jameelqadri@gmail.com");
+	document.getElementById('demo12').innerHTML = himstudent.name;
+	document.getElementById('demo13').innerHTML = himstudent.age ;
+	document.getElementById('demo14').innerHTML = himstudent.contact ;
+	document.getElementById('demo15').innerHTML = himstudent.email;
+
+
+
+    const herstudent = new student("shabana Qadri", 29,7019253734, "shabanaqadri@gmail.com");
+	document.getElementById('demo16').innerHTML = herstudent.name;
+	document.getElementById('demo17').innerHTML = herstudent.age ;
+	document.getElementById('demo18').innerHTML = herstudent.contact ;
+	document.getElementById('demo19').innerHTML = herstudent.email;
+
+	</script>
+</body>
+</html>

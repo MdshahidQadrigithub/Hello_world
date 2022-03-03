@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+ <style type="text/css">
+
+         table,tr,td
+   {
+      border: 10px solid #06f;
+   
+   }
+
+</style>
+</head>
+<body>
+
+        <center><i><h2><u>JavaScript Objects</u></h2></i></center>
+
+        <center><table>
+    <tr>
+              
+         <th>first name</th>
+         <th>last name</th>
+         <th>age</th>
+         <th>eyeColor</th>
+</tr>
+  
+          <tr>
+          
+          <td id="inno1"></td>
+          <td id="inno2"></td>
+          <td id="inno3"></td>
+          <td id="inno4"></td>
+         
+         </tr>
+           
+       </center></table>
+      
+        
+<script>
+class shahid 
+{
+constructor(firstname, lastname, age,eyeColor)
+{
+this.firstname = firstname;
+this.lastname = lastname;
+this.age = age;
+this.eyeColor = eyeColor;
+   }
+}
+const myshahid = new shahid ("john","Doe",50,"blue");
+document.getElementById("inno1").innerHTML = myshahid.firstname;
+document.getElementById("inno2").innerHTML = myshahid.lastname;
+document.getElementById("inno3").innerHTML = myshahid.age;
+document.getElementById("inno4").innerHTML = myshahid.eyeColor
+
+</script>
+
+
+</body>
+</html>
